@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Document</title>
+    <!-- 3. Rendering Welcome message -->
+    <p id="welcome-el"></p>
+
     <h1>People entered:</h1>
     <h2 id="count-el">0</h2>
-    <!-- Create an increment button with id="increment-btn" -->
+
+    <!-- 1. Create an increment button with id="increment-btn" -->
     <button id="increment-btn" onclick="increment()">INCREMENT</button>
-    <script src="index.js">
-    </script>
-</head>
-<body>
-    
-</body>
+
+    <!-- 2. Create a save button.
+    set the id to "save-btn" and call the save() function when it's clicked -->
+    <button id="save-btn" onclick="save()">SAVE</button>
+
+    <!-- 4. Previous entries -->
+    <p id="save-el" onclick="save()">Previous Entries: </p>
+
+    <script src="index.js"></script>
+  </head>
+  <body></body>
 </html>
