@@ -52,7 +52,6 @@ saveEl.textContent += prevEntry;//correct soln
 //--- 7
 //Render the content to 0 inside <p id="save-el"> when save button is clicked -- done -- line 19*
 
-
 //---
 
 //local scope, global scope
