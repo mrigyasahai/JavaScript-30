@@ -1,0 +1,21 @@
+> Array - ordered list of items - composite/ complex datat types
+
+let posts = [
+"my netflix clone",
+"here's the codefor my project",
+"I've just relaunched my portfolio"
+]
+
+console.log(posts[0]);//my netflix clone
+console.log(posts.length);//3
+
+let aboutMe = [
+    "Mrigya",
+    20,
+    true
+]
+
+let cards = [7, 4];// now you should not/ can not insert more entries directly -- instead you have to use a method push()
+
+cards.push(6);
+console.log(cards);
